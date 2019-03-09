@@ -4,7 +4,7 @@ var logger = require('morgan');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 
-var port = 3000;
+var port = 3001;
 
 var routes = require('./routes/index');
 var app = express();

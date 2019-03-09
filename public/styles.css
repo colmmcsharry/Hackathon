@@ -1,0 +1,19 @@
+body {background-color: lightblue;
+font-size: 20px;
+margin: 1px black;}
+
+h1 {text-align: center;
+font-family: "Comic Sans MS", cursive, sans-serif}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: lightblue;
+  padding: 2px;
+}
+
+.grid1 {padding-top: 100px;
+}
+
+.grid2 {;
+}
