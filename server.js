@@ -7,6 +7,7 @@ var cookieParser = require('cookie-parser');
 var port = 3001;
 
 var routes = require('./routes/index');
+var song = require('./routes/songs')
 var app = express();
 
 // view engine setup
@@ -20,6 +21,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '/public')));
 app.use('/', routes);
+app.use('/songs', song)
 
 app.listen(port, function() {
   console.log('Listening in on port' + port);
