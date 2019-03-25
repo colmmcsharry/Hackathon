@@ -4,7 +4,10 @@ var chosenword = "helloo"
 // of correct words, then the bulb comes on and a nice audio plays, if not, bulb off and other audio.
 
 var hiddenwords = ["me", "wondering", "everything", "hear", "dreaming", "fell", "younger", "young", "forgotten", "difference", "and", "thousand", "everything"
-,"outside", "you", "anymore","typical", "happened", "secret" , "running"]
+,"outside", "you", "anymore","typical", "happened", "secret" , "running",
+/*song 2 */ 
+"nervous", "God", "god", "while", "away", "remember", "jeans", "free", "demons", "heart", "heard", "soul", "die", "soul", "cry", "I", "wake", "take", "funeral", "catch", "start", "help"
+, "alone", "worry", "know", "disguise", "hiding", "met", "dated", "back"]
 console.log(hiddenwords)
 
 function search(ele) {
