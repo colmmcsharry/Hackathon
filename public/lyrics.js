@@ -6,8 +6,8 @@ var chosenword = "helloo"
 var hiddenwords = ["me", "wondering", "everything", "hear", "dreaming", "fell", "younger", "young", "forgotten", "difference", "and", "thousand", "everything"
 ,"outside", "you", "anymore","typical", "happened", "secret" , "running",
 /*song 2 */ 
-"nervous", "God", "god", "while", "away", "remember", "jeans", "free", "demons", "heart", "heard", "soul", "die", "soul", "cry", "I", "wake", "take", "funeral", "catch", "start", "help"
-, "alone", "worry", "know", "disguise", "hiding", "met", "dated", "back"]
+"nervous", "God", "god", "while", "away", "remember", "jeans", "free", "demons", "heart", "heard", "soul", "die", "soul", "cry", "I", "i", "wake", "take", "funeral", "catch", "start", "help"
+, "alone", "mind", "worry", "know", "disguise", "hiding", "met", "dated", "back"]
 console.log(hiddenwords)
 
 function search(ele) {
@@ -29,3 +29,7 @@ function myFunction(){
 	document.getElementById("myImage").src = 'https://www.w3schools.com/js/pic_bulboff.gif' 
 }
 
+function change(){
+    document.getElementById("intro").style.display = "none";
+    document.getElementById("invis").style.display = "block"
+}

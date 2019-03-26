@@ -17,3 +17,30 @@ font-family: "Comic Sans MS", cursive, sans-serif}
 
 .grid2 {;
 }
+
+.row {color: green;
+	position: relative;
+	top: 800px;}
+
+.indexhead {text-align: center;
+	position:relative;
+top: 200px;}	
+
+h3 {position:relative;
+top: 400px;
+text-align:center;}
+
+#invis {display: none;
+text-align: center;
+	position:relative;
+top: 200px;}
+
+.blink_me {cursor: pointer;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
